@@ -1,0 +1,148 @@
+body {
+    width: 1920px;
+    height: 100%;
+    background:darkslategray;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 1080px;
+    width: 1920px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 4 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 3 / 2 / 4 / 3; }
+
+    .div1 {
+        visibility: show;
+        height: 100%;
+        
+        width: 600px;
+        background-image: linear-gradient(
+  220deg,
+  hsl(180deg 25% 25%) 0%,
+  hsl(180deg 16% 22%) 38%,
+  hsl(180deg 7% 18%) 70%,
+  hsl(0deg 0% 13%) 100%
+);
+    }
+
+    .Photo {
+        display: flex;
+        height: 70%;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 50px;
+        border-radius: 400px;
+        box-shadow:  25px 20px 25px -4px rgba(0,0,0,0.69)
+        }
+
+    h1 {
+        text-align: center;
+        color: beige;
+    }
+    .Desc {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+
+    .barre {
+        border-color: black;
+    }
+
+    .profil_perso{
+        text-align: center;
+        font-size: 40px;
+        color: beige;
+    }
+
+    .desc1 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    }
+
+    .desc1,.desc2,.desc3 {
+        font-size: 25px;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    }
+
+    .comp {
+        text-align: center;
+        font-size: 40px;
+        color: beige;
+    }
+
+    .coord {
+        text-align: center;
+        font-size: 40px;
+        color: beige;
+    }
+
+    .div2,.div3,.div4 {
+        background-color: beige;
+    } 
+
+    .div2{
+        height: 100%;
+        width: 1100px;
+    }
+
+    .expe {
+        margin-top: 100px;
+    }
+
+    .expe,.formation,.interets {
+        background-color: #2f4f4f;
+        width: 50%;
+        text-align: center;
+        margin-left: 20%;
+        padding: 20px;
+        font-size: 30px;
+        color: beige;
+    }
+
+    .cdr,.EC,.bde,.cesi,.uni,.lycee {
+        font-weight: bold;
+        color: darkslategray;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .periode1,.periode2,.d4,.d5,.d6 {
+        color:darkslategray;
+        text-align: center;
+        font-size: 25px;
+        width: 80%;
+        margin-left: 10%;
+        text-decoration: underline;
+    }
+
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7 {
+        color:darkslategray;
+        text-align: center;
+        font-size: 25px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .div3{
+        height: 0;
+        width: 0;
+    }
+
+    .div4{
+        height: 0;
+        width: 0; 
+    }
